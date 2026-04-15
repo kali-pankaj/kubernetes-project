@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: pankaj-Pod
+  Namespace: 
+spec: 
+  containers:
+  - name: web
+    image: nginx:latest
+    ports:
+      - containerPort: 80
+      
