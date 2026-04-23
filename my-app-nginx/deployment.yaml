@@ -14,7 +14,8 @@ spec:
     spec: 
       containers:
         - name: myapp 
-          image: nginx:latest
+          image: kalitesthub/my-web-app:v1.28
+          imagePullPolicy: Always
           ports: 
             - containerPort: 80
             
