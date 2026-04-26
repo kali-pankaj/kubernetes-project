@@ -17,4 +17,4 @@ spec:
         - name: my-website
           image: kalitesthub/my-web-app:v1.5 
           ports:  
-            - containerPort: 5000
+            - containerPort: 80

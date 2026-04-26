@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: my-configmap
+
+data:
+  APP_ENV: "pankaj"
+  APP_PORT: "3000"
+  DB_HOST: "mysql-service"

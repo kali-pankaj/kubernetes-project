@@ -9,5 +9,5 @@ spec:
     app: my-website
   ports:
     - port: 80
-      targetPort: 5000
+      targetPort: 8085
       nodePort: 30007
